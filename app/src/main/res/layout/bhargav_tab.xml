@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/light_yellow"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/bhargavtext"
+        android:layout_height="wrap_content"
+        android:text="Bhargav Marsonia s301108254"
+        android:textSize="25dp"
+        android:textColor="@color/blue"
+        android:textStyle="bold"
+       />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_below="@+id/bhargavtext">
+
+    </Space>
+        <View
+            android:layout_width="match_parent"
+            android:layout_below="@+id/bhargavtext"
+            android:layout_height="5dp"
+            android:id="@+id/bhargavView"
+            android:background="@color/black"
+            />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@+id/bhargavView"
+        android:id="@+id/bhargavspace">
+
+    </Space>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bhargavspace"
+        android:text="Download and Display Image from The Internet"
+        />
+
+
+</RelativeLayout>

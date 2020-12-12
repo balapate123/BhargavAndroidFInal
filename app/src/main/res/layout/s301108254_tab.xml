@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/light_green">
+    <EditText
+        android:id="@+id/bhargavUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:inputType="textPersonName"
+        android:text="Enter Email"
+        />
+
+    <EditText
+        android:id="@+id/bhargavPassword"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:inputType="numberPassword"
+        android:text="Enter Password digits only"
+       />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/bhargavPassword"
+        android:text="Bhargav Validate Login">
+
+    </Button>
+
+</RelativeLayout>
